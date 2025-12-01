@@ -45,5 +45,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: your-docker-username/flaskapp:latest
+          tags: mehul0507/flaskapp:latest
 
