@@ -45,5 +45,5 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v6
       with:
-        push: true
+        push: false
         tags: mehul0507/flaskapp:latest
